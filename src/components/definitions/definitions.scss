@@ -1,0 +1,47 @@
+$borderGray: rgb(105, 105, 105);
+$white: #fff;
+$black: #000;
+
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height:  55vh;
+  border: 10px solid $borderGray;
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+
+  audio {
+    background-color: $white;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  &__subTitle {
+    font-size: 5vw;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  &__singleMean {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: $white;
+    color: $black;
+
+    hr {
+      background-color: $black;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
