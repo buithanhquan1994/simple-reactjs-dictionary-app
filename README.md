@@ -1,6 +1,8 @@
 # Simple App [Dictionary App]
 This project was developed for learning basic reactjs, scss, and structure folder
 
+Description about the project: Type the word (searching) and select the language that want to know the meaning
+
 ## Dependencies
 
 1. material-ui-core
