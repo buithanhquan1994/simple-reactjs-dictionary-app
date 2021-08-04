@@ -1,4 +1,4 @@
-# Simple App [Search word and know the meaning]
+# Simple App [Dictionary App]
 This project was developed for learning basic reactjs, scss, and structure folder
 
 ## Dependencies
