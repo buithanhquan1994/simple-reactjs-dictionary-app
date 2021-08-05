@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './definitions.scss'
-import ReactAudioPlayer from 'react-audio-player';
 
 export default function Definitions({ word, meanings, language, lightMode}) {
   useEffect(() => {

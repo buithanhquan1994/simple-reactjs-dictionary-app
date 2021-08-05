@@ -10,23 +10,22 @@ import { grey } from '@material-ui/core/colors';
 
 function App({children}) {
   const [meanings, setMeanings] = useState([]) 
-  const [error, setError] = useState(false)
   const [word, setWord] = useState("")
   const [language, setLanguage] = useState(listLanguage[0].value)
   const [lightMode, setLightMode] = useState(false)
 
-  const getWordMeaning = async () => {
-    try {
-      const data = await dictionaryApi.getWordDefinitions(language, word)
-      setMeanings(data.data)
-    } catch (err) {
-      setError(true)
-    }
-  }
-
+  
   useEffect(() => {
+    async function getWordMeaning () {
+      try {
+        const data = await dictionaryApi.getWordDefinitions(language, word)
+        setMeanings(data.data)
+      } catch (err) {
+        console.err(err)
+      }
+    }
+  
     getWordMeaning()
-    console.log(language)
   }, [word, language]) 
 
   const SwitchChangeTheme = withStyles({

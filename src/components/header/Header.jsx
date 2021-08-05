@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './header.scss'
 import { TextField, MenuItem } from '@material-ui/core'
 import { ThemeProvider  } from '@material-ui/core/styles'
