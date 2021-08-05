@@ -30,3 +30,6 @@ Demo: [https://demo-dictionary-app-reactjs.netlify.app/](https://demo-dictionary
 
 #### 2. Run docker-compose
 `docker-compose up -d --build`
+
+#### 3. Check url
+**http://YOUR-IP:9000**
