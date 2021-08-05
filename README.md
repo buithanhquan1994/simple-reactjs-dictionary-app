@@ -10,6 +10,9 @@ Description about the project: Type the word (searching) and select the language
 3. node-sass
 4. reactjs
 
+## Deploy
+**https://app.netlify.com/**
+
 ## Step by step to run
 
 #### Install
