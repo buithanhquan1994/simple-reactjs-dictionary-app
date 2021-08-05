@@ -3,6 +3,8 @@ This project was developed for learning basic reactjs, scss, and structure folde
 
 Description about the project: Type the word (searching) and select the language that want to know the meaning
 
+Demo: [https://demo-dictionary-app-reactjs.netlify.app/](https://demo-dictionary-app-reactjs.netlify.app/)
+
 ## Dependencies
 
 1. material-ui-core

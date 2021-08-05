@@ -3,9 +3,6 @@ import './definitions.scss'
 
 export default function Definitions({ word, meanings, language, lightMode}) {
   useEffect(() => {
-
-    console.log(language)
-    console.log(meanings[0])
   }, [meanings,language ])
   return (
     <div className="meanings">

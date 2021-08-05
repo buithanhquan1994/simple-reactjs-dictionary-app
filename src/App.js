@@ -16,6 +16,7 @@ function App({children}) {
 
   
   useEffect(() => {
+    console.log(word)
     async function getWordMeaning () {
       try {
         const data = await dictionaryApi.getWordDefinitions(language, word)
@@ -61,6 +62,7 @@ function App({children}) {
           setWord={setWord}
           setMeanings={setMeanings}
           lightMode={lightMode}
+          meanings={meanings}
           />
 
         {
