@@ -1,5 +1,5 @@
 # Simple App [Dictionary App]
-This project was developed for learning basic reactjs, scss, and structure folder
+This project was developed for learning basic reactjs, scss, structure folder and simple deployment with docker and docker-compose
 
 Description about the project: Type the word (searching) and select the language that want to know the meaning
 
@@ -12,14 +12,21 @@ Demo: [https://demo-dictionary-app-reactjs.netlify.app/](https://demo-dictionary
 3. node-sass
 4. reactjs
 
-## Deploy
+## Deploy by third party
 **https://app.netlify.com/**
 
-## Step by step to run
+## Step by step to run with Dev environment
 
-#### Install
+#### 1. Install
 `npm install`
 
-#### start
+#### 2. start
 `npm start`
 
+
+## Step by Step to run with production
+
+#### 1. Install [docker](https://docs.docker.com/engine/install/centos/) & [docker-compose](https://docs.docker.com/compose/install/)
+
+#### 2. Run docker-compose
+`docker-compose up -d --build`
