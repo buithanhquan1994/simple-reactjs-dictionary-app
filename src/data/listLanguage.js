@@ -1,4 +1,4 @@
-export default [
+ const listLanguage = [
   { label: 'English', value: 'en' },
   { label: 'Hindi', value: 'hi' },
   { label: 'Spanish', value: 'es' },
@@ -11,4 +11,5 @@ export default [
   { label: 'Brazilian Portuguese', value: 'pt-BR' },
   { label: 'Arabic', value: 'ar' },
   { label: 'Turkish', value: 'tr' },
-]
+] 
+export default listLanguage

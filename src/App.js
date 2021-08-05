@@ -21,7 +21,7 @@ function App({children}) {
         const data = await dictionaryApi.getWordDefinitions(language, word)
         setMeanings(data.data)
       } catch (err) {
-        console.err(err)
+        console.log(err)
       }
     }
   

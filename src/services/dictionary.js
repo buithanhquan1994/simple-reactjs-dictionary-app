@@ -10,6 +10,8 @@ const getWordDefinitions = (language_code, word) =>  new Promise((resolve, rejec
   }
 }) 
 
-export default {
+const functionApi = {
   getWordDefinitions
 }
+
+export default functionApi
