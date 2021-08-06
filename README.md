@@ -38,3 +38,4 @@ Demo: [https://demo-dictionary-app-reactjs.netlify.app/](https://demo-dictionary
 1. [Generate Manifest file](https://https://app-manifest.firebaseapp.com/)
 2. [Change size for image](https://imageresizer.com/)
 3. [Create Maskable image](https://maskable.app/editor)
+4. [Create Favicon](https://favicon.io/favicon-converter/)
