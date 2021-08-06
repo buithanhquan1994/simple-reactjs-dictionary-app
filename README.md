@@ -33,3 +33,8 @@ Demo: [https://demo-dictionary-app-reactjs.netlify.app/](https://demo-dictionary
 
 #### 3. Check url
 **http://YOUR-IP:9000**
+
+## How to create the manifest json file
+1. [Generate Manifest file](https://https://app-manifest.firebaseapp.com/)
+2. [Change size for image](https://imageresizer.com/)
+3. [Create Maskable image](https://maskable.app/editor)

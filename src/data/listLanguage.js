@@ -1,4 +1,4 @@
- const listLanguage = [
+const listLanguage = [
   { label: 'English', value: 'en' },
   { label: 'Hindi', value: 'hi' },
   { label: 'Spanish', value: 'es' },
